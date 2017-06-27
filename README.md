@@ -44,7 +44,7 @@ const tmpl = (_tmpl = [{
 }], _tmpl.vars = ["active", "text"], _tmpl);
 ```
 
-#### Transformer
+### Transformer
 
 It's similar to [transform-dwayne-js](https://github.com/dwaynejs/transform-dwayne-js),
 but for babel and JSX only.
