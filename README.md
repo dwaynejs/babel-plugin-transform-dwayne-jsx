@@ -1,4 +1,4 @@
-# babel-plugin-transform-react-jsx-source
+# babel-plugin-transform-dwayne-jsx
 
 Babel plugin for transforming JSX into Dwayne-compatible js.
 
