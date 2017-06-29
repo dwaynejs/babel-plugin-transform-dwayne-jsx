@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-dwayne-jsx",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "main": "lib/index.js",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -38,6 +38,6 @@
   "dependencies": {
     "babel-plugin-syntax-jsx": "^6.18.0",
     "lodash": "^4.17.4",
-    "transform-dwayne-html": "^5.6.1"
+    "transform-dwayne-html": "^5.9.0"
   }
 }

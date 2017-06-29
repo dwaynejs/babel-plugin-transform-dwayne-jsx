@@ -29,7 +29,7 @@ module.exports = ({ types: t }) => ({
         filename,
         sourceType: 'embed',
         inputSourceMap: null,
-        jsxMode: true,
+        mode: 'jsx',
         startLine: loc.line,
         startColumn: loc.column,
         startPosition: start,
