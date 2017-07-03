@@ -34,11 +34,7 @@ const tmpl = (_tmpl = [{
   }, {
     type: OtherBlock,
     args: {
-      __source: {
-        file: "source.js",
-        line: 4,
-        column: 5
-      }
+      __source: "source.js:4:5"
     }
   }]
 }], _tmpl.vars = ["active", "text"], _tmpl);
