@@ -1,3 +1,4 @@
+const Path = require('path');
 const _ = require('lodash');
 const transformDwayneHtml = require('transform-dwayne-html');
 
@@ -26,7 +27,7 @@ module.exports = ({ types: t }) => ({
       const tmplVarName = generateScopeVar('_tmpl', path, options);
       const mixinVarName = generateScopeVar('_mixin', path, options);
       const transformerOpts = _.assign({}, options, {
-        filename,
+        filename: Path.relative(process.cwd(), filename),
         sourceType: 'embed',
         inputSourceMap: null,
         mode: 'jsx',
